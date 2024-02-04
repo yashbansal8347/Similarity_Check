@@ -60,3 +60,4 @@ tzdata==2023.4
 wcwidth==0.2.5
 werkzeug==3.0.1
 wheel==0.41.2
+gunicorn==21.2.0
