@@ -4,7 +4,7 @@
 asttokens==2.0.5
 backcall==0.2.0
 blinker==1.7.0
-bzip2==1.0.8
+bzip2
 ca-certificates
 click==8.1.7
 colorama==0.4.6
