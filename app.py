@@ -53,10 +53,13 @@ def change(st):
 
 
 def similarity_check(text1,text2):
-  text1 = change(text1)
-  text2 = change(text2)
-  val = model.wv.n_similarity(text1,text2)
-  return val
+  try:  
+      text1 = change(text1)
+      text2 = change(text2)
+      val = model.wv.n_similarity(text1,text2)
+      return val
+  except : 
+      return val = 0.0
 
 
 # In[11]:
