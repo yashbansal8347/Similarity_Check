@@ -59,7 +59,7 @@ def similarity_check(text1,text2):
       val = model.wv.n_similarity(text1,text2)
       return val
   except : 
-      return val = 0.0
+      return 0
 
 
 # In[11]:
